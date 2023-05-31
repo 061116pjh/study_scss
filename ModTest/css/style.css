@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background: #f4f7fd;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  display: flex;
+  line-height: 80px;
+  column-gap: 15px;
+}
+header > .logo {
+  width: 200px;
+  height: 100%;
+  border-right: solid 1px #eee;
+  border-bottom: solid 1px #eee;
+  text-align: center;
+  align-items: center;
+}
+
+.wraper {
+  display: flex;
+  column-gap: 15px;
+}
+.wraper > .side {
+  width: 200px;
+  height: calc(100vh - 80px);
+  background: #fff;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.wraper > .side > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wraper > .side > ul > li {
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #ccc;
+  font-size: 13px;
+  cursor: pointer;
+}
+.wraper > .side > ul > li:nth-child(1) {
+  font-size: 14px;
+}
+.wraper > .side > ul > li:nth-child(2) {
+  background: #635fc7;
+  color: #fff;
+}
+.wraper > .side .bottomBox {
+  width: 180px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.wraper > .side .bottomBox > .buttonBox {
+  width: 100%;
+  height: 40px;
+  background: #f4f7fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wraper > .side .bottomBox > .buttonBox > .buttonOut {
+  width: 60px;
+  height: 28px;
+  background: #635fc7;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.wraper > .side .bottomBox > .buttonBox > .buttonOut > .buttonIn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+}
+.wraper > .side .bottomBox > .hideButton {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  color: #635fc7;
+  text-align: center;
+  cursor: pointer;
+}
+.wraper > .container {
+  height: 250px;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.wraper > .container > .item {
+  width: 220px;
+  height: 230px;
+  background: #fff;
+  border-radius: 10px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.wraper > .container > .item > .itemName {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+.wraper > .container > .item > ul {
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  align-items: center;
+  justify-content: space-between;
+}
+.wraper > .container > .item > ul > li {
+  width: 190px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: solid 1px #f4f7fd;
+  box-shadow: 2px 2px 1px #f4f7fd;
+}
+.wraper > .container > .item > .addBtn {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.wraper > .container > .item:last-child {
+  background: none;
+}
+.wraper > .container > .item:last-child > .addSection {
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+  color: #333;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
