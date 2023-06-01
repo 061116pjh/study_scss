@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 65px;
+  background: #24292f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header > .header-container {
+  width: 97vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > .header-container > .header-left {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  width: 850px;
+  justify-content: space-between;
+}
+header > .header-container > .header-left > .logo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+header > .header-container > .header-left > .logo > .fa-github:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+header > .header-container > .header-left > .input {
+  width: 325px;
+  height: 30px;
+  border: solid 1px #656D76;
+  border-radius: 5px;
+  color: #656D76;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7px;
+  align-items: center;
+  cursor: pointer;
+}
+header > .header-container > .header-left > .input > .fa-magnifying-glass {
+  font-size: 14px;
+}
+header > .header-container > .header-left > .input > p {
+  margin-left: -130px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.75);
+}
+header > .header-container > .header-left > .input > .small-box {
+  width: 17px;
+  height: 18px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: solid 1px #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header > .header-container > .header-left > nav > ul {
+  display: flex;
+  width: 425px;
+  justify-content: space-between;
+}
+header > .header-container > .header-left > nav > ul > li {
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+header > .header-container > .header-left > nav > ul > li:hover {
+  color: #bbb;
+}
+header > .header-container > .header-right {
+  height: 100%;
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > .header-container > .header-right > .fa-bell {
+  font-size: 18px;
+  cursor: pointer;
+}
+header > .header-container > .header-right > .fa-bell:hover {
+  filter: brightness(0.8);
+}
+header > .header-container > .header-right > .addBox {
+  width: 30px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+header > .header-container > .header-right > .addBox:hover > :is(.fa-plus, .fa-caret-down) {
+  filter: brightness(0.8);
+}
+header > .header-container > .header-right > .addBox > .fa-caret-down {
+  font-size: 13px;
+  transition: 0.3s;
+}
+header > .header-container > .header-right > .profileBox {
+  display: flex;
+  width: 32px;
+  height: 25px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+header > .header-container > .header-right > .profileBox:hover > .fa-caret-down {
+  filter: brightness(0.8);
+}
+header > .header-container > .header-right > .profileBox > .fa-caret-down {
+  font-size: 13px;
+}
+header > .header-container > .header-right > .profileBox > .profile-image {
+  width: 20px;
+  height: 20px;
+}
+header > .header-container > .header-right > .profileBox > .profile-image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.pages {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  border-bottom: solid 1px #aaa;
+  display: flex;
+  justify-content: center;
+}
+.pages > ul {
+  display: flex;
+  height: 100%;
+}
+.pages > ul > li {
+  height: 100%;
+  position: relative;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
